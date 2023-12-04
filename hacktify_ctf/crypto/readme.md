@@ -1,0 +1,2 @@
+https://book.hacktricks.xyz/crypto-and-stego/crypto-ctfs-tricks
+
