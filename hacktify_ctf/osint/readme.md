@@ -11,3 +11,10 @@ Get your POCO F4
 The first tactic shown involves using the "forgot my password" feature to see recovery options associated with the account, such as phone numbers and device type
 
 ghunt email
+
+using tin.eye
+
+using binwalk
+
+bird sounds -  at biirdsoounds webste
+
