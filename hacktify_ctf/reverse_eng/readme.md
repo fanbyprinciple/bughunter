@@ -10,3 +10,9 @@ if its a pyinstaller we can use pydecipher-v -d exe
 if its not working then we can 7z extract and then use pydecipher patch.py is also mentioned for patching python file gdb for runtime analysis 
 
 using pwn to interact with remote server
+
+flag{theHflagisshHiftedagaHinandagaH
+
+curl -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"","params":["0x3529C182f8302b23d3250AdaEE4057519D6a96F7","latest"],"id":1}' http://40.81.241.149:8545
+
+DEFINED	140019bb0	u_Flag{URASIA}_140019bb0	unicode u"Flag{URASIA}"	u"Flag{URASIA}"	unicode	26	true
