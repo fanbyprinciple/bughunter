@@ -16,3 +16,5 @@ flag{theHflagisshHiftedagaHinandagaH
 curl -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"","params":["0x3529C182f8302b23d3250AdaEE4057519D6a96F7","latest"],"id":1}' http://40.81.241.149:8545
 
 DEFINED	140019bb0	u_Flag{URASIA}_140019bb0	unicode u"Flag{URASIA}"	u"Flag{URASIA}"	unicode	26	true
+
+https://dogbolt.org/?id=20f903ac-a265-4658-8e39-dc8b0dcc9b60#Hex-Rays=137
