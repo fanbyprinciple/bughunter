@@ -6,28 +6,33 @@
 ## excel worksheet
 
 ```
-Dim counter As Integer
+Sub CopyRowData()
+    Dim inputSheet As Worksheet
+    Dim outputSheet As Worksheet
+    Dim inputRange As Range
+    Dim outputRow As Long
+    Dim lastRow As Long
 
-Sub CopyValueToAnotherSheet()
-    ' Initialize counter if not already done
-    If counter = 0 Then
-        counter = 1
+    ' Define sheets - change "Sheet1" to your sheet name
+    Set inputSheet = ThisWorkbook.Sheets("Sheet1")
+    Set outputSheet = ThisWorkbook.Sheets("Sheet1") ' Change if output is on a different sheet
+
+    ' Define input range - change range as per your requirement
+    Set inputRange = inputSheet.Range("A1:B1") ' Example range
+
+    ' Find the last used row in the output area
+    lastRow = outputSheet.Cells(outputSheet.Rows.Count, "D").End(xlUp).Row ' Change "D" to your start column in output area
+
+    ' If it's the first time, start from the specific row; else, go to next row
+    If lastRow = 1 And IsEmpty(outputSheet.Cells(lastRow, "D").Value) Then ' Change "D" to match above
+        outputRow = lastRow
     Else
-        counter = counter + 1
+        outputRow = lastRow + 1
     End If
 
-    ' Define the source and target worksheets and cells
-    Dim sourceSheet As Worksheet
-    Dim targetSheet As Worksheet
-    Dim sourceCell As Range
-    Dim targetCell As Range
+    ' Copy-paste the data
+    inputRange.Copy Destination:=outputSheet.Cells(outputRow, "D") ' Change "D" to the start column of the output
 
-    Set sourceSheet = ThisWorkbook.Worksheets("Sheet1") ' Change "Sheet1" to your source sheet name
-    Set targetSheet = ThisWorkbook.Worksheets("Sheet2") ' Change "Sheet2" to your target sheet name
-    Set sourceCell = sourceSheet.Range("A1") ' Change "A1" to your source cell
-    Set targetCell = targetSheet.Cells(counter, 1) ' This will paste the value in column A, next available row
-
-    ' Copy the value
-    targetCell.Value = sourceCell.Value
 End Sub
+
 ```
