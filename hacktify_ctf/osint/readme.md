@@ -18,3 +18,9 @@ using binwalk
 
 bird sounds -  at biirdsoounds webste
 
+### Understanding Geoguesser
+
+1. The name of the challenge is important, image description is also importaaant
+
+2. use of wayback machines
+
