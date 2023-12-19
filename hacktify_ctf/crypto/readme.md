@@ -29,3 +29,11 @@ flag.ec chall.py
 
 output.txt gen.py
 
+# chef programming language
+
+dcode.fr
+
+# musical notes
+
+
+
