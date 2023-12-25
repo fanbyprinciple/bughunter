@@ -7,3 +7,7 @@ whwenever ud2 is present ghidra stops decompiling the data
 lokking at ghhhex
 
     HTB{Itz_0nLy_UD2}
+
+# Simple Encryptor
+
+by using the encyptor breaker
