@@ -1,0 +1,53 @@
+# Nmap 7.94SVN scan initiated Mon Jan 29 12:33:28 2024 as: /usr/bin/nmap -p- --max-retries 1 --max-rate 500 --max-scan-delay 20 -T4 -v --open -oN nmap/Full_10.10.11.242.nmap --system-dns --stats-every 3s 10.10.11.242
+adjust_timeouts2: packet supposedly had rtt of 8254811792 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8254811792 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8254811628 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8254811628 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8254811462 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8254811462 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8254811264 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8254811264 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8254811097 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8254811097 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8254810929 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8254810929 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8254810763 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8254810763 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8254810596 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8254810596 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8254810430 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8254810430 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8254810079 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8254810079 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8254809912 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8254809912 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8254809746 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8254809746 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8254809580 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8254809580 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8254809412 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8254809412 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8254809245 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8254809245 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8254809078 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8254809078 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8254808913 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8254808913 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8254807596 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8254807596 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8254806953 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8254806953 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8254806810 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8254806810 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8254806645 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8254806645 microseconds.  Ignoring time.
+Nmap scan report for 10.10.11.242
+Host is up (0.36s latency).
+Not shown: 53223 closed tcp ports (conn-refused), 12310 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Mon Jan 29 18:59:57 2024 -- 1 IP address (1 host up) scanned in 23189.09 seconds
