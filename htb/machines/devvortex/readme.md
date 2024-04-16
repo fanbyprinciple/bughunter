@@ -8,7 +8,4 @@ add to /etc/hosts devvortex
 ==> DIRECTORY: http://devvortex.htb/images/                                              
 + http://devvortex.htb/index.html (CODE:200|SIZE:18048)                                  
 ==> DIRECTORY: http://devvortex.htb/js/                                                  
---> Testing: http://devvortex.htb/memcached                                              
-
-
-
+--> Testing: http://devvortex.htb/memcached           
