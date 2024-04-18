@@ -1,3 +1,4 @@
+```python
 #!/usr/bin/python3
 
 e_message = bytes.fromhex("7aa34395a258f5893e3db1822139b8c1f04cfab9d757b9b9cca57e1df33d093f07c7f06e06bb6293676f9060a838ea138b6bc9f20b08afeb73120506e2ce7b9b9dcd9e4a421584cfaba2481132dfbdf4216e98e3facec9ba199ca3a97641e9ca9782868d0222a1d7c0d3119b867edaf2e72e2a6f7d344df39a14edc39cb6f960944ddac2aaef324827c36cba67dcb76b22119b43881a3f1262752990")
@@ -14,3 +15,6 @@ for i in range(len(xored)):
     pt += bytes([xored[i] ^ message[i]])
 
 print(pt)
+```
+
+![](2024-04-18-13-41-00.png)![Alt text](image.png)```
